@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnae Association Registration</title>
+</head>
+<body>
+    <h2>Alumnae Association Registration Form</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label>First Name*: <input type="text" name="first_name" required></label><br><br>
+        <label>Middle Name: <input type="text" name="middle_name"></label><br><br>
+        <label>Last Name*: <input type="text" name="last_name" required></label><br><br>
+        <label>Admission Number: <input type="text" name="admission_number"></label><br><br>
+        <label>Date of Birth*: <input type="date" name="dob" required></label><br><br>
+        <label>I am*: 
+            <select name="gender" required>
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </label><br><br>
+        <label>Marital Status*: 
+            <select name="marital_status" required>
+                <option value="">Select status</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+            </select>
+        </label><br><br>
+        <label>Mobile No. (with Country code)*: <input type="tel" name="mobile" required></label><br><br>
+        <label>Email*: <input type="email" name="email" required></label><br><br>
+        <label>Batch of*: <input type="text" name="batch" placeholder="YYYY" required></label><br><br>
+        <label>Stream*: 
+            <select name="stream" required>
+                <option value="">Select Stream</option>
+                <option value="science">Science</option>
+                <option value="commerce">Commerce</option>
+                <option value="arts">Arts</option>
+            </select>
+        </label><br><br>
+        <label>Highest Qualification: <input type="text" name="qualification"></label><br><br>
+        <label>College Last Attended: <input type="text" name="college"></label><br><br>
+        <label>Permanent Address: <input type="text" name="permanent_address"></label><br><br>
+        <label>Communication Address: <input type="text" name="communication_address"></label><br><br>
+        <label>Name of Current Organisation: <input type="text" name="organisation"></label><br><br>
+        <label>Designation: <input type="text" name="designation"></label><br><br>
+        <label>Memories: <textarea name="memories"></textarea></label><br><br>
+        <label>Country*: 
+            <select name="country" required>
+                <option value="india">India</option>
+            </select>
+        </label><br><br>
+        <label>Upload Your Photo: <input type="file" name="photo" accept="image/*"></label><br><br>
+        <input type="checkbox" name="terms" required> I agree to the terms of service.<br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
